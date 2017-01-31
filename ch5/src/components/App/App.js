@@ -1,7 +1,7 @@
 
 import * as React from 'react';
 import { Link, IndexLink } from 'react-router';
-// import * as NavLink from '../NavLink';
+import NavLink from '../NavLink';
 
 const App = props => (
   <div>
@@ -11,6 +11,7 @@ const App = props => (
       <li><Link to="/about" activeClassName="active">About</Link></li>
       <li><Link to="/repos/react-router" activeClassName="active">Repos</Link></li>
       <li><Link to="/user" activeClassName="active">User</Link></li>
+      <li><NavLink to="/contacts">Contacts</NavLink></li>
     </ul>
     {props.children}
   </div>

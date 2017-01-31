@@ -7,7 +7,7 @@ import Home from './components/Home';
 import Repos from './components/Repos';
 import User from './components/User';
 import About from './components/About';
-// import Contacts from './components/Contacts';
+import Contacts from './components/Contacts';
 
 ReactDOM.render(
   <Router history={hashHistory}>
@@ -16,6 +16,7 @@ ReactDOM.render(
       <Route path="/repos/:name" component={Repos} />
       <Route path="/about" component={About} />
       <Route path="/user" component={User} />
+      <Route path="/contacts" component={Contacts} />
     </Route>
   </Router>,
   document.getElementById('app'),
