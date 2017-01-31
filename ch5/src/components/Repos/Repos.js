@@ -10,7 +10,8 @@ const Repos = props => (
 
 Repos.propTypes = {
   /* eslint-disable react/require-default-props */
-  params: React.PropTypes.Object,
+  /* eslint-disable react/forbid-prop-types */
+  params: React.PropTypes.any,
 };
 
 export default Repos;
