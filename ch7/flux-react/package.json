@@ -27,8 +27,8 @@
     "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-react": "^6.9.0",
     "html-webpack-plugin": "^2.28.0",
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^1.16.3"
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
   },
   "typeAcquisition": {
     "events": "^1.1.1",

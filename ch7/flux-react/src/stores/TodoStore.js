@@ -27,7 +27,7 @@ class TodoStore extends EventEmitter {
   }
 }
 
-const defaultTodoStore = new TodoStore();
+export const defaultTodoStore = new TodoStore();
 
 dispatcher.register((action) => {
   switch (action.type) {
@@ -42,5 +42,3 @@ dispatcher.register((action) => {
 
   return true;
 });
-
-export default defaultTodoStore;
